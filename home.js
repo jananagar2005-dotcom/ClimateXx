@@ -1,5 +1,6 @@
 let signinbtn = document.querySelector("#signin");
 let explorebtn = document.querySelector("#explore");
+
 // ///////////////////////////////////////////////////////////////
 signinbtn.onclick=function(){
     window.location="ssign.html"

@@ -49,34 +49,32 @@ nav ul{
       gap: 100px;
       /* padding-top: 5px; */
 }
- .sign{
-  margin-left: 1300px;
-  text-decoration:none ;
-  list-style: none;
- 
-  
-  text-align: center;
-  font-size: x-large;
+ .sign {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    z-index: 10;
+    list-style: none;
+    text-align: center;
 }
-.sign .signin-btn{
-     text-decoration:none ;
-       font-size: x-large;
-   color: #f9cb29;
-        border:1px solid   #f9cb29;
-      
-         width: 90px;
-         padding: 5px;
-         border-radius: 3px;
-         
+.sign .signin-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: x-large;
+    color: #f9cb29;
+    border: 1px solid #f9cb29;
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 0.5s;
 }
 
-.sign .signin-btn:hover{
-     background-color: #7f9bcb;
-      text-shadow: 1px 1px 1px  #f8f0f0;
-    color:rgba(18, 38, 66, 0.773); 
+.sign .signin-btn:hover {
+    background-color: #7f9bcb;
+    text-shadow: 1px 1px 1px #f8f0f0;
+    color: rgba(18, 38, 66, 0.773);
     font-family: initial;
-     font-size: 15px;
-     transition: all .5s;
+    font-size: 15px;
 }
 
 .explore-btn{
