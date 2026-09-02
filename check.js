@@ -12,7 +12,7 @@ let suninfo = document.querySelector("#sun");
 let windinfo = document.querySelector("#wind");
 let locationinfo = document.querySelector("#location-info");
 let loading = document.querySelector(".loading");
-let result = document.querySelector(".result");
+let result = document.querySelector(".result2");
 let advice = document.querySelector(".advice");
 // //////////////////////////////////////////////////////////////////////////////////////
   
